@@ -66,7 +66,7 @@ def list_weapon(request):
     # [미션] Weapon 모델의 모든 객체를 weapons 리스트로 가져오기
 
     context = {
-        # [미션] weapons 리스트를 HTML로 넘겨주기
+        # [미션] weapons 리스트를 html에 넘겨주기
         # [미션] None을 지우고 작성
         'weapons': None,
     }
