@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-# Post 모델 작성
+# Posting 모델 작성
 class Posting(models.Model):
     title = models.CharField(max_length=50)
     content = models.TextField()
